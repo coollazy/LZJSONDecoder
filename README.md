@@ -6,4 +6,6 @@ The extensions of JSONDecoder
 
 ## cocoapod
 
-## SPM
+```
+pod 'LZJSONDecoder', '~> 1.0.0'
+```
