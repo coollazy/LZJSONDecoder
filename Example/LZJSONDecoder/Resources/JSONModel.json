@@ -1,0 +1,6 @@
+{
+	"title": "This is json model",
+	"intValue": 123456789,
+	"floatValue": 12345678.9,
+	"doubleValue": 1.23456789,
+}
