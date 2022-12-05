@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.author        = { "ven.wu" => "ven.wu.github@gamil.com" }
   s.platform      = :ios, "10.0"
   s.source        = { :git => "https://github.com/venwu1984/LZJSONDecoder.git", :tag => s.version }
-  s.source_files  = "Classes/**/*.{swift}"
+  s.source_files  = "Sources/LZJSONDecoder/**/*.{swift}"
 end
