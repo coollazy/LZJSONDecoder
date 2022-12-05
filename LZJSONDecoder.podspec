@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
                      The extensions of JSONDecoder.
                      DESC
 
-  s.homepage      = "https://github.com/venwu1984/LZJSONDecoder"
+  s.homepage      = "https://github.com/coollazy/LZJSONDecoder"
   s.license       = "MIT"
   s.author        = { "ven.wu" => "ven.wu.github@gamil.com" }
   s.platform      = :ios, "10.0"
-  s.source        = { :git => "https://github.com/venwu1984/LZJSONDecoder.git", :tag => s.version }
+  s.source        = { :git => "https://github.com/coollazy/LZJSONDecoder.git", :tag => s.version }
   s.source_files  = "Sources/LZJSONDecoder/**/*.{swift}"
 end
