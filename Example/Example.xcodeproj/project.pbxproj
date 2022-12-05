@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46A525373FE7F7CF7B329227 /* Pods_LZJSONDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C572FADD586446706D0DCCA0 /* Pods_LZJSONDecoder.framework */; };
+		CBCB78FC2622073C003AC273 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02487B3958E735615527F2E /* Pods_Example.framework */; };
 		CE97B89A293DCEC2007ED884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97B899293DCEC2007ED884 /* AppDelegate.swift */; };
 		CE97B89C293DCEC2007ED884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97B89B293DCEC2007ED884 /* SceneDelegate.swift */; };
 		CE97B89E293DCEC2007ED884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97B89D293DCEC2007ED884 /* ViewController.swift */; };
@@ -19,8 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30CDFCFE3DEE95A4876689CB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4AF52CA0ACB19CFEC7B15073 /* Pods-LZJSONDecoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZJSONDecoder.debug.xcconfig"; path = "Target Support Files/Pods-LZJSONDecoder/Pods-LZJSONDecoder.debug.xcconfig"; sourceTree = "<group>"; };
-		C572FADD586446706D0DCCA0 /* Pods_LZJSONDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZJSONDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AEC8DB26BDF2BA6C9B981C /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE97B896293DCEC2007ED884 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE97B899293DCEC2007ED884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE97B89B293DCEC2007ED884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		CE97B8AF293DD23B007ED884 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
 		CE97B8B1293DD2D5007ED884 /* JSONModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONModel.json; sourceTree = "<group>"; };
 		E4EE8AE06CDD44F00AC64832 /* Pods-LZJSONDecoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZJSONDecoder.release.xcconfig"; path = "Target Support Files/Pods-LZJSONDecoder/Pods-LZJSONDecoder.release.xcconfig"; sourceTree = "<group>"; };
+		F02487B3958E735615527F2E /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A525373FE7F7CF7B329227 /* Pods_LZJSONDecoder.framework in Frameworks */,
+				CBCB78FC2622073C003AC273 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +103,8 @@
 			children = (
 				4AF52CA0ACB19CFEC7B15073 /* Pods-LZJSONDecoder.debug.xcconfig */,
 				E4EE8AE06CDD44F00AC64832 /* Pods-LZJSONDecoder.release.xcconfig */,
+				30CDFCFE3DEE95A4876689CB /* Pods-Example.debug.xcconfig */,
+				73AEC8DB26BDF2BA6C9B981C /* Pods-Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -108,7 +112,7 @@
 		D8DB12E6CD7201ADD29BBE52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C572FADD586446706D0DCCA0 /* Pods_LZJSONDecoder.framework */,
+				F02487B3958E735615527F2E /* Pods_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,15 +193,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LZJSONDecoder/Pods-LZJSONDecoder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LZJSONDecoder/Pods-LZJSONDecoder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LZJSONDecoder/Pods-LZJSONDecoder-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C6A1A43BD89A8B17CF3C30C0 /* [CP] Check Pods Manifest.lock */ = {
@@ -215,7 +219,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LZJSONDecoder-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,7 +380,7 @@
 		};
 		CE97B8AB293DCEC4007ED884 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AF52CA0ACB19CFEC7B15073 /* Pods-LZJSONDecoder.debug.xcconfig */;
+			baseConfigurationReference = 30CDFCFE3DEE95A4876689CB /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -404,7 +408,7 @@
 		};
 		CE97B8AC293DCEC4007ED884 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EE8AE06CDD44F00AC64832 /* Pods-LZJSONDecoder.release.xcconfig */;
+			baseConfigurationReference = 73AEC8DB26BDF2BA6C9B981C /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
