@@ -10,6 +10,20 @@ The extensions of JSONDecoder
 pod 'LZJSONDecoder', '~> 1.0.0'
 ```
 
+### SPM
+
+- Package.swift 的 dependencies 增加
+
+```
+.package(name: "LZJSONDecoder", url: "https://github.com/coollazy/LZJSONDecoder.git", .upToNextMajor(from: "1.0.1")),
+```
+
+- target 的 dependencies 增加
+
+```
+.product(name: "LZJSONDecoder", package: "LZJSONDecoder"),
+```
+
 # How to use
 
 ### The json file from bundle resource
