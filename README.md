@@ -4,7 +4,7 @@ The extensions of JSONDecoder
 
 # How to install
 
-### cocoapod
+### CocoaPods
 
 ```
 pod 'LZJSONDecoder', '~> 1.0.2'
