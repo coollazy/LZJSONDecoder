@@ -29,12 +29,21 @@ pod 'LZJSONDecoder', '~> 1.0.2'
 ### The json file from bundle resource
 
 ```
-let model = try? "JSONModel.json".jsonBundleDecode(JSONModel.self)
+let fileName = "JSONModel.json"
+let model = try? fileName.jsonBundleDecode(JSONModel.self)
+```
+
+### The json file from document resource
+
+```
+let fileName = "JSONModel.json"
+let model = try? fileName.jsonFileInDocumentDecode(JSONModel.self)
 ```
 
 ### The json string
 
 ```
+let jsonString = "JSON string here"
 let model = try? jsonString.jsonStringDecode(JSONModel.self)
 ```
 
