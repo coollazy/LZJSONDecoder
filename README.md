@@ -7,7 +7,7 @@ The extensions of JSONDecoder
 ### CocoaPods
 
 ```
-pod 'LZJSONDecoder', '~> 1.0.2'
+pod 'LZJSONDecoder', '~> 1.0.3'
 ```
 
 ### SPM
@@ -15,7 +15,7 @@ pod 'LZJSONDecoder', '~> 1.0.2'
 - Package.swift 的 dependencies 增加
 
 ```
-.package(name: "LZJSONDecoder", url: "https://github.com/coollazy/LZJSONDecoder.git", .upToNextMajor(from: "1.0.2")),
+.package(name: "LZJSONDecoder", url: "https://github.com/coollazy/LZJSONDecoder.git", .upToNextMajor(from: "1.0.3")),
 ```
 
 - target 的 dependencies 增加
